@@ -1,0 +1,183 @@
+body{
+  background-color: ;
+}
+.navbar{
+  background-color:#cc33ff; 
+}
+.navbar-brand{
+  color: #ffffff;
+  background-color: #262626;
+  margin-top: 30px;
+}
+.navbar-brand:hover{
+  background-color: #009900;
+  color: #ff0000;
+}
+ul li{
+  padding: 0 10px;
+  margin-top: 30px;
+}
+ul li a{
+  font-size: 16px;
+  font-weight: 36px;
+  color:  #ffffff;
+}
+.link{
+  background-color: #00ffff;
+  border-radius: 3px;
+}
+ul li .link:hover{
+  background-color: #ffb3b3;
+}
+ul li .active{
+  border-bottom: 5px solid #ffffff;
+}
+ul li .active:hover{
+  border-bottom: 5px solid green;
+}
+
+.navbar-toggle{
+  background-color:black; 
+}
+#index-banner{
+  width: 100%;
+  height:100vh;
+  background-image: url('img/home.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  margin:auto;
+}
+.vertical-center{
+  display: table-cell;
+  vertical-align: middle;
+}
+.index-banner h2{
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  text-shadow: 10px 12px #111;
+  cursor: pointer;
+}
+.index-banner h1{
+  font-size: 28px;
+  cursor: pointer;
+  font-weight: 100;
+  text-align: center;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-shadow: 10px 12px #111;
+}
+.contactbtn{
+  
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-left: 50%;
+}
+.contactbtn:hover{
+  background-color: #ffb3b3;
+}
+
+.caption{
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+#about h3{
+  color: orange;
+  font-size: 40px;
+  font-weight: 250px;
+}
+.panel-default{
+  background-color: #99ffcc;
+}
+.panel-body{
+  border-right: solid 3px brown;
+  background-color: black;
+  margin: 0 30px;
+  color: orange;
+}
+.aboutme{
+  text-align: center;
+  background-color: #b3ffb3;
+  text-transform: uppercase;
+  border-radius: 10px;
+  line-height: 50px;
+}
+#description{
+  background-image: url(img/descr.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#mystory p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100px;
+}
+#education p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100px;
+}
+#backend p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100px;
+}
+#current p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100px;
+}
+#description button{
+  background-color: transparent;
+  padding: 0 -100px;
+  border: none;
+  border-top: solid black 4px;
+  color: orange;
+  font-size: 20px;
+  font-weight: 100px;
+  line-height: 70px;
+}
+#description button:hover{
+  background-color: green;
+  color: #ffffff;
+}
+.modal-title{
+  background-color: transparent;
+  line-height: 40px;
+  justify-content: middle;
+  color: #111111;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900px;
+  text-transform: uppercase;
+}
+.whatdo{
+  text-align: center;
+  margin: 30px 0;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 50px;
+  padding-top: 0.01px;
+}
+#footer{
+  background-image: url(img/footer.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: table;
+}
+.icon{
+  margin:20px;
+  font-size: 20px;
+}
